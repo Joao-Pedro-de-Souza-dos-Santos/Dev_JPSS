@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class - 06 |Formuário|</title>
+    <style>
+        form{
+            width: 300px;
+        }
+        input{
+           /* width: 96%; */
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <!--<form method="get">
+        <label for="name">Name:</label>
+        <input 
+            type=""
+            name="nome"
+            id="name"
+            placeholder="Digite seu nome"
+            required
+            >
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <form method="get">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="em">E-mail</label><br>
+
+            <input type="email" 
+                   name="email" 
+                   id="em"><br>               
+
+            <label for="sen">Senha</label><br>
+
+            <input type="password"
+                   name="senha" 
+                   id="sen"><br><br>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>-->
+
+    <form method="get">
+        <input type="number"
+                placeholder="Digite sua Idade"
+                min="0"
+                max="99"
+                step="3">
+        <br><br>
+        <input type="datetime-local">
+        <br><br>
+        <input type="range"
+               min="0"
+               max="100"
+               step="20"
+               value="30">
+        <br><br>
+        <input type="file"
+               accept="image/*"
+               multiple
+               >
+               <!-- image/* video/* audio/* .pdf .png .jpg .svg .docx .xls-->
+        <br><br>
+        <input type="color"
+               value="#ff0000"
+               list="Gcolor">
+        <br><br>
+        <datalist id="Gcolor">
+            <option>#FF0000</option>
+            <option>#00FF00</option>
+            <option>#0000FF</option>
+        </datalist>
+        <label for="">HTML</label>
+        <input type="checkbox">
+        <label for="">CSS</label>
+        <input type="checkbox">
+        <br><br>
+        <label for="">Sim</label>
+        <input type="radio"
+               name="Esc"
+               id="yes">
+        <label for="">Não</label>
+        <input type="radio"
+               name="Esc"
+               id="no">
+        <br><br>
+        <select name="JOJO" id="">
+            <option value="1">Jonathan Joestar</option>
+            <option value="2">Joseph Joestar</option>
+            <option value="3">Kujo Jotaro</option>
+            <option value="4">Higashikata Joestar</option>
+            <option value="5">Giorno Giovanna</option>
+            <option value="6">Kujo Jolyne</option>
+            <option value="7">Jonny Joestar</option>
+            <option value="8">Higashikata Joestar 2</option>
+        </select>
+        <br><br>
+        <textarea name="tx" id="" cols="30" rows="10"
+                  maxlength="20">
+
+        </textarea>
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>

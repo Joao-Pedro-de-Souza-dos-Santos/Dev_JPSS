@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.logo_fundo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto auto;
+    border-radius: 50px;
+    background: linear-gradient(#ffdf9e, #ffc273, #e56969, #c1558b, #8a49a1);
+}
+.square{
+    width: 70%;
+    height: 70%;
+    border: 13px solid white;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border: 13px solid white;
+    border-radius: 50%;
+}
+.point{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: -53%;
+    left: 115%;
+    border-radius: 50%;
+    background: white;
+}

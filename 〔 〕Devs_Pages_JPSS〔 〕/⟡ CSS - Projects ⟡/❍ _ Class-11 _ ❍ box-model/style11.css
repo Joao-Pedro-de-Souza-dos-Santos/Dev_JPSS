@@ -1,0 +1,70 @@
+*/* <-- Referênciar todos os elementos*/{
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    position: relative;
+    top: 100px;
+    left: auto;
+}
+.quadratura{
+    height: 100px;
+    width: 100px;
+    background: lightseagreen;
+    padding: 10px;
+    border: 4px solid black;
+    box-sizing: border-box; /* <-- Com border-box */
+    /*margin: 10px;*/
+}
+.quadratura2{
+    height: 100px;
+    width: 100px;
+    background: lightgreen;
+    padding: 10px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    z-index: -1;
+   /*box-sizing: border-box; <-- Sem border-box */
+}
+.quadratura3{
+    width: 100px;
+    height: 100px;
+    background: lightslategray;
+    position: absolute;
+    top: 80px;
+    left: 280px;
+    z-index: -2;
+    box-shadow: 10px 0px 0 black, -10px 0px 0 black;
+}
+.area{
+    width: 100%;
+    height: auto;
+    background: lightgoldenrodyellow;
+    position: relative;
+    top: 110px;
+
+}
+
+#pri{
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.808);
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    color: antiquewhite;
+}
+#seg{
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.808);
+    display: inline-block;
+    position: relative;
+    color: antiquewhite;
+}
